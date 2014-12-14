@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_hapus"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/str_delete"
+        android:icon="@drawable/ic_content_discard"/>
+    
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/str_edit"
+        android:icon="@drawable/ic_content_edit"/>
+</menu>

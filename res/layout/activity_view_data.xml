@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TableLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <TableRow
+            android:padding="10dp">
+			<TextView
+				android:id="@+id/txtteks1"
+				android:padding="3dp"
+				android:textSize="17sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/str_name_view" />
+		       		
+		    <TextView
+				android:id="@+id/txtViewName"
+				android:textSize="17sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" /> 		
+       		
+        </TableRow>
+        
+        <TableRow
+            android:padding="10dp">
+			<TextView
+				android:id="@+id/txtteks2"
+				android:padding="3dp"
+				android:textSize="17sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/str_age_view" />
+		       		
+		    <TextView
+				android:id="@+id/txtViewAge"
+				android:textSize="17sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" /> 		
+       		
+        </TableRow>
+        
+        <TableRow
+            android:padding="10dp">
+			<TextView
+				android:id="@+id/txtteks3"
+				android:padding="3dp"
+				android:textSize="17sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/str_address_view" />
+		       		
+		    <TextView
+				android:id="@+id/txtViewAddress"
+				android:textSize="17sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" /> 		
+       		
+        </TableRow>"
+        
+    </TableLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FriendList</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_name">Nama&#8230;</string>
+    <string name="str_age">Umur&#8230;</string>
+    <string name="str_address">Alamat&#8230;</string>
+    <string name="str_edit">Edit</string>
+    <string name="str_delete">Hapus</string>
+    
+    <string name="str_name_view">Nama :</string>
+    <string name="str_age_view">Umur :</string>
+    <string name="str_address_view">Alamat :</string>
+</resources>
